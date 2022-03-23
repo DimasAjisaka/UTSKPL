@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="?attr/card"
+    app:cardCornerRadius="11dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="6dp"
+    android:layout_marginBottom="-5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="17dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/getNama"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_medium"
+            tools:text="Dimas Ajisaka Kurniawan"
+            android:textColor="@color/material_blue"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:id="@+id/getNim"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_medium"
+            tools:text="2009077"
+            android:textColor="?attr/boldText"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/getMk"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_medium"
+            tools:text="KPL"
+            android:textColor="?attr/boldText"
+            android:textSize="19sp"/>
+
+        <TextView
+            android:id="@+id/getNilai"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_medium"
+            tools:text="95 (A)"
+            android:textColor="?attr/boldText"
+            android:textSize="21sp"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

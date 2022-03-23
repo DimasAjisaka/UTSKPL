@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Penilaian</string>
+    <string name="input_text">Input Nilai Mahasiswa</string>
+    <string name="nama">Nama: ex Asep Budi</string>
+    <string name="nim">NIM: ex 200XXXX</string>
+    <string name="mk">Mata Kuliah: ex Konstruksi Perangkat Lunak</string>
+    <string name="tugas">Tugas: ex 90</string>
+    <string name="quiz">QUIZ: ex 90</string>
+    <string name="uts">UTS: ex 90</string>
+    <string name="uas">UAS: ex 90</string>
+    <string name="submit">Submit</string>
+    <string name="noteInput">Note:\nUntuk melihat hasil nilai mahasiswa, silahkan masukkan Nama Mahasiswa, NIM, Mata Kuliah, Nilai Tugas, Nilai Quiz, Nilai UTS, dan Nilai UAS.</string>
+    <string name="noteResult">Note:\nA = Istimewa\nA- = Hampir Istimewa\nB+ = Baik Sekali\nB = Baik\nB- = Cukup Baik\nC+ = Lebih Dari Cukup\nC = Cukup\nD = kurang\nE= Gagal</string>
+    <string name="Brand">評価</string>
+    <string name="add_button">add Button</string>
+    <string name="iconDesc">Hyōka</string>
+    <string name="outLineButton">Lihat hasil</string>
+</resources>

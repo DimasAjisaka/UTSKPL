@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bg"
+    tools:context=".InputActifity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/bg"
+        android:orientation="vertical"
+        tools:context=".InputActifity">
+
+        <!--    note-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="17dp"
+            android:layout_margin="21dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="@string/noteInput"
+                android:textColor="@color/material_blue"
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/card"
+            android:layout_margin="21dp"
+            app:cardCornerRadius="11dp"
+            app:contentPadding="17dp"
+            app:cardElevation="9dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/product_sans_medium"
+                    android:textColor="@color/material_blue"
+                    android:text="@string/input_text"
+                    android:textSize="23sp"
+                    android:textAlignment="center"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="31dp"
+                    android:background="@drawable/field"
+                    android:hint="@string/nama"
+                    android:padding="16dp"
+                    android:textColor="?attr/typing"
+                    android:textColorHint="?attr/regularText"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/field"
+                    android:hint="@string/nim"
+                    android:padding="16dp"
+                    android:textColor="?attr/typing"
+                    android:textColorHint="?attr/regularText"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/field"
+                    android:hint="@string/mk"
+                    android:padding="16dp"
+                    android:textColor="?attr/typing"
+                    android:textColorHint="?attr/regularText"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tugas"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/field"
+                        android:hint="@string/tugas"
+                        android:padding="16dp"
+                        android:textColor="?attr/typing"
+                        android:textColorHint="?attr/regularText"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/quiz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/field"
+                        android:hint="@string/quiz"
+                        android:padding="16dp"
+                        android:textColor="?attr/typing"
+                        android:textColorHint="?attr/regularText"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/uts"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/field"
+                        android:hint="@string/uts"
+                        android:padding="16dp"
+                        android:textColor="?attr/typing"
+                        android:textColorHint="?attr/regularText"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/uas"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/field"
+                        android:hint="@string/uas"
+                        android:padding="16dp"
+                        android:textColor="?attr/typing"
+                        android:textColorHint="?attr/regularText"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:padding="11dp"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_bold_text"
+                    android:textSize="21sp"/>
+
+                <Button
+                    android:id="@+id/hasil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/outLineButton"
+                    android:padding="11dp"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textSize="21sp"
+                    android:textAllCaps="false"
+                    app:strokeColor="@color/material_blue"
+                    style="?attr/materialButtonOutlinedStyle"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</ScrollView>
